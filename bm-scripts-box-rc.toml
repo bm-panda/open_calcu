@@ -1,8 +1,8 @@
 [bmscriptsbox.info]
 id = "e85a3b5f-349c-4baf-b244-123b44c8347b"              
 name = "计算器"                                    
-desc = "打开系统计算器bat脚本，通过不忙脚本盒子的右键/快捷键可实现快速启动"                                  
-version = "0.0.1"                                        
+desc = "打开系统计算器，通过不忙脚本盒子的右键/快捷键可实现快速启动"                                  
+version = "1.0.0"                                        
 icon = "calcu.png"   
 
 [bmscriptsbox.runtime]
@@ -14,7 +14,6 @@ terminal = "never"
 [bmscriptsbox.triggers.context_menu]
 enabled = true
 targets = ["background"]
-
 
 [bmscriptsbox.triggers.shortcut]
 enabled = true
